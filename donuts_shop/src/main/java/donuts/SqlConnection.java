@@ -15,8 +15,8 @@ public class SqlConnection {
 	
 	public Connection getConnection() throws SQLException  {
 		String dbName = "donuts_shop";
-		String user = "sa";
-		String password = "password";
+		String user = "javauser"; //sa
+		String password = "javauser"; //password
 		
 		String ConnectionUrl = "jdbc:sqlserver://localhost\\SQLEXPRESS;database=" + dbName 
 				+ ";trustServerCertificate=true"
